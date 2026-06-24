@@ -1,0 +1,22 @@
+{
+  "name": "cli-command",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/inquirer": "^8.2.13",
+    "commander": "^15.0.0",
+    "inquirer": "^8.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "ts-node": "^10.9.2"
+  }
+}
